@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:rgb(88, 175, 0);
+    color: aliceblue;
+}
+
+
+.cabecalho{
+      background-color: rgb(86, 172, 0);
+     color: aliceblue;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 24px 0;
+}
+
+.cabecalho-lista-item{
+display:inline-block;
+margin: 0 16px;
+ font-size: 24px;
+}
