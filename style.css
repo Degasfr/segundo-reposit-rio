@@ -2,25 +2,23 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+font-family:'monda', sans-serif;
+}
+
 header {
-    background-color:rgb(88, 175, 0);
-    color: aliceblue;
+    background-color:#424E61 ;
+    color: white;
 }
 
-
-.cabecalho{
-      background-color: rgb(86, 172, 0);
-     color: aliceblue;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 24px 0;
-}
-
-.cabecalho-lista-item{
-display:inline-block;
-margin: 0 16px;
- font-size: 24px;
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
 }
 
 .cabecalho-imagem {
@@ -38,7 +36,18 @@ margin: 0 16px;
 }
 
 .escola{
-    background-image:linear-gradient(rgb(86, 172, 0));
+    background-image:linear-gradient(#424E61 #44beee);
     color:white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo { 
+    width: 35%;
+}
+
+.escola-titulo {
+    padding: 24px 0;
 }
