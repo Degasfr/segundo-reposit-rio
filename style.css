@@ -8,12 +8,12 @@ font-family:'monda', sans-serif;
 }
 
 header {
-    background-color:#424E61 ;
+    background-color:#222122 ;
     color: white;
 }
 
 .cabecalho {
-    background-color: #424E61;
+    background-color: #222122;
     color: white;
     display: flex;
     justify-content: space-around;
