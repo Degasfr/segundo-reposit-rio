@@ -1,82 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+@import url(/styles/apresentacao.css);
+@import url(/styles/header.css);
 
-body{
-font-family:'monda', sans-serif;
-}
-
-header {
-    background-color: #19ad06;
-    color: white;
-}
-
-.cabecalho {
-    background-color:#19ad06;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.cabecalho-imagem {
-    width: 20%;
-}
-
-.cabecalho-lista-item {
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
-}
-
-.escola-imagem{
-    width: 25%;
-}
-
-.escola{
-    background-image: linear-gradient(#222122, #19ad06);
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.escola-div-conteudo { 
-    width: 35%;
-}
-
-.escola-titulo {
-    padding: 24px 0;
-}
-
-.estudante-imagem {
-    width: 30%;
-}  
-
-.estudante-icone {
-    width: 25px;
-    padding: 4px 8px;
-}
-
-.estudante-div {
-    text-align: center;
-    padding: 16px 0;
-}
-
-.estudante-titulo {
-    text-align: center;
-    padding: 50px 0;
-}
-
-.rodape {
-    background-color: #19ad06;
-    text-align: center;
-}
-
-.rodape-imagem {
-    height: 60px;
-    padding: 12px 0;
+:root {
+ --cor-principal: #7ED957;
+--cor-2:#00B593;
+ --cor-3:#009FAA;
+ --cor-4:#0087B7;
+--cor-5:#006EB6;
+--cor-6:#00C975;
+--cor-preta:#000000;
+--cor-branco:#FFF;
 }
