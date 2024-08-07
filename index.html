@@ -1,29 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Página principal</title>
 
-        <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <link 
+              href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="styles/apresentacao.css"
     </head>
+
     <body>
         <header class="cabecalho">
-            <span class="cabecalho_menu-hamburguer"> </span>
-            <img  class="cabecalho-imagem"  src="img/alurastart_logo.png" alt="logo AluraStart">
+            <div class="container">
+                <input type="checkbox"  id="menu"    class="container__botao">
+                <label for="menu">
+                    <span class="cabecalho__menu  container__imagem"> </span> 
+                </label>
+    
+                <ul class="cabecalho-lista">
+                    <li class="cabecalho-lista-titulo"> Categorias </li>
+                    <li class="cabecalho-lista-item"> <a href="#" class="menu__lista-item"> Serviços</a></li>
+                    <li class="cabecalho-lista-item"> <a href="#" class="menu__lista-item"> Projetos</a></li>
+                    <li class="cabecalho-lista-item"> <a href="#" class="menu__lista-item"> Contato </a></li>
+                </ul>
+          
+                <img class="cabecalho-imagem" src="img/alurastart_logo.png" alt="logo AluraStart">
+                <h1 class="container-titulo"> trufanello </h1>
+            </div>
+    
+            <ul class="opcoes">
+                <input type="checkbox"   id="opcoes-menu"    class="opcoes__botao">
+                <label for="opcoes-menu"> 
+                    <li class="opcoes__item"> CATEGORIAS REVER </li>
+                </label>
+    
+                <ul class="cabecalho-lista">
+                    <li class="cabecalho-lista-item">
+                        <a href="#" class="menu__lista-item"> Opção 1 </a>
+                    </li>
+                    <li class="cabecalho-lista-item">
+                        <a href="#" class="menu__lista-item"> Opção 2 </a>
+                    </li>
+                    <li class="cabecalho-lista-item">
+                        <a href="#" class="menu__lista-item"> Opção 3 </a>
+                    </li>
+    
+                </ul>
 
-         <a href="#"> <img src="img/favoritos.svg" alt=""></a>
-         <a href="#"> <img src="img/compras.svg" alt=""></a>
-         <a href=""><img src="img/usuario.svg" alt=""></a>
-
-
-            <ul class="cabecalho-lista"  >
-                <li class="cabecalho-lista-item" >Escola</li>
-                <li class="cabecalho-lista-item" >Estudantes</li>
+                <li class="opcoes__item"><a href="#" class="opcoes_link"> Escola </a> </li>
+                <li class="opcoes__item"><a href="#" class="opcoes_link"> estudante </a> </li>
+    
             </ul>
+        
+    <div class="container"
+         <a href="#"> <img class="cabecalho-imagem cabecalho_favorito" src="img/favoritos.svg" alt="Meus favoritos"></a>
+         <a href="#" class="container_link">
+             <img class="cabecalho-imagem" src="img/compras.svg" alt="Carrinho de compras"> <p class="container_texto"> Minha Sacola </p> 
+             </a>
+         <a href="#" class="container_link" >
+            <img class="cabecalho-imagem" src="img/usuario.svg" alt=" Meu Perfil">
+            <p class="container_texto"> Meu Perfil</p>  
+        </a>
+    </div>   
+
+
+            
         </header>
 
         <section class="escola">
@@ -35,7 +83,6 @@
             <img src="img/Education-cuate.png" alt="imagem da escola" class="escola-imagem">
 
         </section>
-
 
 
         <section class="estudante">
