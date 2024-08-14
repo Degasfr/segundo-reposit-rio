@@ -23,7 +23,7 @@
 
 .cabecalho-imagem{
     padding: 1em;
-    width: 20%; //tamanho a logo
+    width: 20%; 
 }
 
 .container__imagem{
@@ -49,7 +49,7 @@
 
  .cabecalho-lista-titulo {
     padding: 1em;
-    color: var(--preto);
+    color: var(--cor-preta);
     font-weight: 700;
     text-transform: uppercase;
  }
