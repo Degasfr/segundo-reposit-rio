@@ -129,5 +129,25 @@
             <img src="img/logo.png" alt="logo empresa" class="rodape-imagem">
          </footer>
 
+         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+         <script>
+            const swiper = new Swiper (".swiper", {
+                direction: "vertical";
+                loop: true;
+
+                pagination:{
+                    el:".swiper-pagination",
+                },
+
+                navigation: {
+                    nexteEl: ".swiper-button-next",
+                },
+
+                scrollbar: {
+                    el:".swiper-scrollbar"
+                }
+            });
+         </script>
+
     </body>
 </html>
