@@ -1,4 +1,4 @@
-function criarCartão (item, pergunta, resposta) {
+function criarCartao (item, pergunta, resposta) {
     //console.log(item,perrgunta, resposta)
 
     let flashcard = document.getElementById('flashcard');

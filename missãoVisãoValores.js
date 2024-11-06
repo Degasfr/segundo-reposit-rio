@@ -1,11 +1,11 @@
-criarCartão(
+criarCartao(
     'Missão',
     'Saiba qual é a missão de nossa empresa!',
     ' Nossa missão é...'
 )
 
 
-criarCartão(
+criarCartao(
     'Visão', 
     'Saiba qual é a visão de nossa empresa!',
     ' Nossa visão é...'
@@ -13,7 +13,7 @@ criarCartão(
 
 
 
-criarCartão(
+criarCartao(
     'Valores', 
     'Saiba quais são nossos valores de nossa empresa!',
     ' Nossos valores são...'
