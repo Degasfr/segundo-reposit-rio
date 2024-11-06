@@ -8,14 +8,14 @@ function criarCartão (item, pergunta, resposta) {
 
     cartao.innerHTML = `
            <div class="cartao__conteudo">
-                <h3>missão</h3>
+                <h3>${item}</h3>
                 
                 <div class="cartao__conteudo__pergunta">
-                    Saiba qual é a missão de nossa empresa!
+                    <p>${pergunta}</p>
                 </div>
                 
                 <div class="cartao__conteudo__pergunta">
-                    Nossa missão é...
+                    <p>${resposta}</p>
                 </div>
             </div>
     `
