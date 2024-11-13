@@ -1,9 +1,17 @@
+main {
+    margin-top: 60px;
+}
+
 .cabecalho {
     background-color: var(--cor-principal);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: var(--cor-branco);
+    z-index: 1000;
 }
 
 .container {
