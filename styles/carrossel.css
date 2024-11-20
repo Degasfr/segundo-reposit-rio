@@ -20,7 +20,7 @@
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #7ED957;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,12 +69,12 @@
 }
 
 .descricao__titulo {
-    color: var(--cor-branco);
+    color: var(--cor-secundaria);
     font-weight: 700;
 }
 
 .descricao__titulo-produto {
-    color: var(--cor-laranja);
+    color: var(--cor-secundaria);
     font-size: 18px;
     font-weight: 700;
     margin: 0.5em 0;
@@ -89,7 +89,7 @@
 }
 
 .botoes__ancora {
-    background-color: var(--cor-laranja);
+    background-color: var(--cor-principal);
     padding: 1em 2.2em;
     color: var(--cor-branco);
     font-weight: 700;
