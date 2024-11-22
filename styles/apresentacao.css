@@ -12,7 +12,7 @@ body {
 }
 
 .escola {
-    background-image:#7ED957;
+    background-image:var(--cor-3);
     color:whitesmoke;
     display: flex;
     justify-content: center;
