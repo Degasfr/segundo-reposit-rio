@@ -3,7 +3,7 @@ main {
 }
 
 .cabecalho {
-    background-color: linear-gradient( #7ED957, #00B593);
+    background-color: linear-gradient( #7ED957);
     display: flex;
     justify-content: space-between;
     align-items: center;
